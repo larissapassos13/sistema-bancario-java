@@ -1,3 +1,5 @@
+package model;
+
 public class Conta {
 
     private int numero;
@@ -19,7 +21,7 @@ public class Conta {
         this.titular = titular;
         this.saldo = saldo;
 
-        quantidadeContas++; // aumenta toda vez q 1 nova conta eh criada
+        quantidadeContas++; 
     }
 
     public int getNumero() {
@@ -56,4 +58,5 @@ public class Conta {
     public static int getQuantidadeContas() {
         return quantidadeContas;
     }
+    
 }
